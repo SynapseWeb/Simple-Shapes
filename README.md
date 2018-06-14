@@ -13,7 +13,7 @@ to allow quick tracing and relatively easy examination and interpretation of the
 
 The following two images show the points created with the "Closed Point-by-Point Drawing" tool in Reconstruct.exe version 1.1.0.0.
 
-This first image shows the points that result from drawing the polygons with "simplify" ("Automatically simplify new closed traces after drawing") turned off. The numbers show the order and locations of the individual mouse clicks to create the trace. There is exactly one point per mouse click.
+This first image shows the points that result from drawing the polygons with "simplify" ("Automatically simplify new closed traces after drawing") turned off. The numbers show the order and locations of the individual mouse clicks to create the trace. There is exactly one point per mouse click (although the ordering of the points seems to be reversed from the clicks).
 
 ![SimplifyOff](docs/Corner_Points_Simplify_Off.png?raw=true "Simplify Off")
 
