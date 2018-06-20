@@ -38,7 +38,7 @@ However, it appears that Reconstruct.exe stores points in the XML in reverse ord
 
 This triangle was traced with the original Reconstruct.exe (1.1.0.0) using the "Closed Point-by-Point Drawing" tool described on page 72 of the manual with "Automatically simplify" turned off. The points were traced in clockwise order starting with the "Top" point, followed by the "Lower Right" (LR) point, and concluded with the "Lower Left" (LL) point. However, the points list in the XML file are listed in reverse order. Here's the XML file:
 
-
+```
 <?xml version="1.0"?>
 <!DOCTYPE Section SYSTEM "section.dtd">
 
@@ -67,3 +67,4 @@ This triangle was traced with the original Reconstruct.exe (1.1.0.0) using the "
 </Transform>
 
 </Section>
+```
