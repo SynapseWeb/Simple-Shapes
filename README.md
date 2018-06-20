@@ -77,3 +77,9 @@ Notice the "points" list in the last transform:
 	 "
 ```
 The first point (0.569187 0.876916) is the Lower Left (LL) point. The second point (0.914512 0.874591) is the Lower Right (LR) point. The final point (0.738943 1.16992) is the Top point. This is actually a counterclockwise direction. So the ordering of the points as traced (Top, LR, LL) was changed when stored in the XML file to be (LL, LR, Top).
+
+The following image shows the use of Reconstruct.java to examine the direction of traces in a section. The points and arrows are shown or hidden through the "Extras / Line" menu in Reconxtruct.java.
+
+![ReconstructPointOrdering](docs/Reconstruct_CCW_Traces.png?raw=true "Reconstruct Point Ordering")
+
+These points are drawn as listed in the XML file (counterclockwise) ... even through they were originally drawn in the clockwise direction. The square shows the first point of the trace in the file.
