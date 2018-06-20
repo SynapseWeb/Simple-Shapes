@@ -68,3 +68,12 @@ This triangle was traced with the original Reconstruct.exe (1.1.0.0) using the "
 
 </Section>
 ```
+Notice the "points" list in the last transform:
+
+```
+ points="0.569187 0.876916,
+	 0.914512 0.874591,
+	 0.738943 1.16992,
+	 "
+```
+The first point (0.569187 0.876916) is the Lower Left (LL) point. The second point (0.914512 0.874591) is the Lower Right (LR) point. The final point (0.738943 1.16992) is the Top point. This is actually a counterclockwise direction. So the ordering of the points as traced (Top, LR, LL) was changed when stored in the XML file to be (LL, LR, Top).
